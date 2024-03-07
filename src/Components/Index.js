@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Index() {
   return (
-    <div className="h-screen flex items-center justify-center">
-      <div className="text-center">
+    <div className="h-auto flex items-center justify-center">
+      <div className="text-center md:mt-[100px] mt-[50px]">
         <h1 className="font-light text-4xl md:text-5xl lg:text-6xl ">
           Hi, <br />
           I'm Daniel, <br />
