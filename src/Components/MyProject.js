@@ -12,10 +12,10 @@ export default function MyProject() {
         <p className="md:text-3xl text-2xl">MY PROJECTS</p>
       </div>
 
-      <p className="md:hidden flex md:text-3xl underline text-2xl">MY <br/>  PROJECTS</p>
+      <p className="md:hidden flex md:text-3xl underline mt-[30px] text-2xl">MY <br/>  PROJECTS</p>
 
-      <p className="text-2xl mt-[20px]">Work</p>
-      <p className="text-center underline text-2xl mt-[20px]">
+      <p className="text-2xl mt-[50px]">Work</p>
+      <p className="text-center underline text-2xl mt-[50px]">
         A Selection Of Stuffs I Have Built.
       </p>
 
