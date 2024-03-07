@@ -14,7 +14,7 @@ export default function Contact() {
             <br />I promise.
           </p>
         </div>
-        <button className="w-[50%] mt-[0px] mb-[20px] border-2 border-solid border-[#44D241] p-2 rounded">
+        <button className="w-[50%] mt-[0px] mb-[20px] hover:text-[#44D241] border-2 border-solid border-[#44D241] p-2 rounded">
           Say Hello
         </button>
       </div>

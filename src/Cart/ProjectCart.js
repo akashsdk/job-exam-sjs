@@ -15,7 +15,7 @@ export default function ProjectCart({ img, text1, text2 }) {
           <p className="text-left text-xl mt-[40px]">{text2}</p>
         </div>
         <div className="hidden md:flex justify-start align-center flex-col m-[30px]">
-          <button className="w-[150px] mt-[30px] border-2 border-solid border-[#44D241] p-2 rounded">
+          <button className="w-[150px] hover:text-[#44D241]  mt-[30px] border-2 border-solid border-[#44D241] p-2 rounded">
             View it Here
           </button>
           <div className="w-[230px] flex mt-[30px] border-2 border-solid border-[#44D241] p-2 rounded">

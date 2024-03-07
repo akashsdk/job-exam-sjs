@@ -10,7 +10,7 @@ export default function Index() {
           Web Developer
         </h1>
         <p className="text-4xl mt-[30px]">Front End Developer</p>
-        <button className="w-[100%] mt-[100px] border-2 border-solid border-[#44D241] p-2 rounded">
+        <button className="w-[100%] mt-[100px] hover:text-[#44D241]  border-2 border-solid border-[#44D241] p-2 rounded">
           Resume
         </button>
       </div>
