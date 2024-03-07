@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div className="h-auto flex items-center justify-center">
+    <div className="h-auto flex items-center justify-center mb-[50px] md:mb-[150px]">
       <div className="text-center md:mt-[100px] mt-[50px]">
         <p className="text-center underline text-3xl">GET IN TOUCH</p>
         <div className=" md:m-[50px] m-[30px]">
