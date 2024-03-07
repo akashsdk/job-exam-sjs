@@ -8,9 +8,12 @@ import Img2 from "../Img/Screenshot 2024-03-07 at 2.34.14 PM.png";
 export default function MyProject() {
   return (
     <div className="flex items-center justify-center flex-col">
-      <div className="md:w-[30%] w-[50%] mt-[100px] border-2 border-solid border-[#44D241] p-2 rounded">
+      <div className="hidden md:flex justify-center align-center md:w-[30%] w-[50%] mt-[100px] border-2 border-solid border-[#44D241] p-2 rounded">
         <p className="md:text-3xl text-2xl">MY PROJECTS</p>
       </div>
+
+      <p className="md:hidden flex md:text-3xl underline text-2xl">MY <br/>  PROJECTS</p>
+
       <p className="text-2xl mt-[20px]">Work</p>
       <p className="text-center underline text-2xl mt-[20px]">
         A Selection Of Stuffs I Have Built.
