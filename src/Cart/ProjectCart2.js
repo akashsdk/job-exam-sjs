@@ -6,9 +6,13 @@ import Icon3 from "../Icon/logos_css-3.png";
 import Icon4 from "../Icon/logos_javascript.png";
 import Icon5 from "../Icon/file-icons_firebase.png";
 
-export default function ProjectCart({ img, text1, text2 }) {
+export default function ProjectCart2({ img, text1, text2 }) {
   return (
     <div className="flex md:flex-row flex-col md:mt-[50px]">
+        <div className="w-[100%] md:w=[50%] flex items-center md:justify-start  justify-start">
+        <img src={img} className="ml-[30px] h-[250px] md:h-[330px]" alt="" />
+      </div>
+
       <div className="w-[100%] md:w=[50%]  flex justify-start align-center flex-col">
         <div className="m-[30px]">
           <p className="text-left text-xl">{text1}</p>
@@ -27,9 +31,7 @@ export default function ProjectCart({ img, text1, text2 }) {
           </div>
         </div>
       </div>
-      <div className="w-[100%] md:w=[50%] flex items-center md:justify-end md:m-[30px]  justify-start">
-        <img src={img} className="ml-[30px] h-[250px] md:h-[330px]" alt="" />
-      </div>
+      
 
       <div className="md:hidden flex justify-start align-center flex-row m-[30px]">
         <button className="w-[150px] mt-[30px] border-2 border-solid border-[#44D241] p-2 rounded">
